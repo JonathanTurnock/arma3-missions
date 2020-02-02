@@ -1,0 +1,174 @@
+class CfgIdentities
+{
+	class Sandman
+	{
+		name		= "Sandman";
+		nameSound	= "Sandman"; // Arma 3 only!
+		face		= "whiteHead_20";
+		glasses		= "G_Balaclava_blk";
+		speaker		= "Male05ENG";
+		pitch		= 1.1;
+	};
+
+	class Lonestar
+	{
+		name		= "Lonestar";
+		nameSound	= "Lonestar"; // Arma 3 only!
+		face		= "whiteHead_22_a";
+		glasses		= "G_Balaclava_blk";
+		speaker		= "Male05ENG";
+		pitch		= 1.1;
+	};
+};
+
+class CfgRadio
+{
+	sounds[] = {};
+	class IntroSandman
+	{
+		name	= "";
+		sound[]	= { "sound\intro_sandman.ogg", db - 100, 1.0 };
+		title	= "HQ, Were in position moving in on the village.";
+	};
+	
+	class IntroHq
+	{
+		name	= "";
+		sound[]	= { "sound\intro_hq.ogg", db - 100, 1.0 };
+		title	= "SANDMAN, Intelligence indicates the CLL Cell Headquarters is somewhere within that village, Shut their operation down!";
+	};
+
+	class AllObjectivesMetHq
+	{
+		name	= "";
+		sound[]	= { "sound\all_objectives_met_hq.ogg", db - 100, 1.0 };
+		title	= "Mission accomplished great job team. Move to the extraction zone and well get you out of there.";
+	}
+
+	class AnthillLonestar
+	{
+		name	= "";
+		sound[]	= { "sound\anthill_lonestar.ogg", db - 100, 1.0 };
+		title	= "Uh Oh, looks like we kicked over an anthill, let's get to stompin!";
+	}
+
+	class DrunkVillagerLonestar
+	{
+		name	= "";
+		sound[]	= { "sound\drunk_villager_lonestar.ogg", db - 100, 1.0 };
+		title	= "This guy looks like he needs an intervention, drunk as he is, nobody would believe a word he says, but we probably should'nt let him see us.";
+	}
+
+	class ExfilAreaSecureSandman
+	{
+		name	= "";
+		sound[]	= { "sound\exfil_area_secure_sandman.ogg", db - 100, 1.0 };
+		title	= "HQ, the area is secure.";
+	}
+
+	class ExfilAreaSecureHQ
+	{
+		name	= "";
+		sound[]	= { "sound\exfil_area_secure_hq.ogg", db - 100, 1.0 };
+		title	= "Roger that Sandman, the area is secure.";
+	}
+
+	class ExtractionHeloHq
+	{
+		name	= "";
+		sound[]	= { "sound\extraction_helo.ogg", db - 100, 1.0 };
+		title	= "Good Job team! The extraction helo will be touching down shortly, you'll be back at base in no time.";
+	}
+
+	class FoundAddressListSandman
+	{
+		name	= "";
+		sound[]	= { "sound\found_address_list_sandman.ogg", db - 100, 1.0 };
+		title	= "These addresses could be for possible safehouses or other cell headquarters.";
+	}
+
+	class FoundAddressListHq
+	{
+		name	= "";
+		sound[]	= { "sound\found_address_list_hq.ogg", db - 100, 1.0 };
+		title	= "Excellent work team! Intelligence will follow up on those addresses. Hopefully it will turn up something useful.";
+	}
+
+	class FoundCellHqHq
+	{
+		name	= "";
+		sound[]	= { "sound\found_cell_hq_hq.ogg", db - 100, 1.0 };
+		title	= "Confirmed team, great work.";
+	}
+
+	class FoundCellHqSandman
+	{
+		name	= "";
+		sound[]	= { "sound\found_cell_hq_sandman.ogg", db - 100, 1.0 };
+		title	= "Command, looks like we found the cells Headquarters!";
+	}
+
+	class FoundGasReportHq
+	{
+		name	= "";
+		sound[]	= { "sound\found_gas_report_hq.ogg", db - 100, 1.0 };
+		title	= "Good fine Sandman, this gives us a better idea of what the CLL has planned!";
+	}
+
+	class FoundMapHq
+	{
+		name	= "";
+		sound[]	= { "sound\found_map_hq.ogg", db - 100, 1.0 };
+		title	= "Roger that Sandman, we'll have Intelligence analyze that map further when your return home. Hopefully it will provide more leads.";
+	}
+
+	class FoundMapSandman
+	{
+		name	= "";
+		sound[]	= { "sound\found_map_sandman.ogg", db - 100, 1.0 };
+		title	= "HQ, we found a map.";
+	}
+
+	class FoundTrainingVideoHq
+	{
+		name	= "";
+		sound[]	= { "sound\found_training_video_hq.ogg", db - 100, 1.0 };
+		title	= "Good work finding that Intel, perhaps we can gain further insight into the CLL's motives and organizational structure.";
+	}
+
+	class FoundTrainingVideoSandman
+	{
+		name	= "";
+		sound[]	= { "sound\found_training_video_sandman.ogg", db - 100, 1.0 };
+		title	= "Intel should definately be able to identify the terrorists on this tape.";
+	}
+
+	class InsideVillageHq
+	{
+		name	= "";
+		sound[]	= { "sound\inside_village_hq.ogg", db - 100, 1.0 };
+		title	= "Sandman, were reading you inside the village.";
+	}
+
+	class MaintainedStealthHq
+	{
+		name	= "";
+		sound[]	= { "sound\maintained_stealth_hq.ogg", db - 100, 1.0 };
+		title	= "I'm not reading any unusual activity, good work maintaining stealth.";
+	}
+
+	class ReinforcementsHq
+	{
+		name	= "";
+		sound[]	= { "sound\reinforcements_hq.ogg", db - 100, 1.0 };
+		title	= "Sandman, were tracking several vehicles moving towards the village from the east, looks like enemy re-inforcements, get ready!";
+	}
+
+	class ReinforcementsSandman
+	{
+		name	= "";
+		sound[]	= { "sound\reinforcements_sandman.ogg", db - 100, 1.0 };
+		title	= "Roger that HQ, thanks for the heads up!";
+	}
+
+};
